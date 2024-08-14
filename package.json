@@ -1,14 +1,14 @@
 {
-  "name": "landwind",
+  "name": "trnatural",
   "version": "1.0.0",
-  "description": "Landwind is a free and open-source landing page built with Tailwind CSS and Flowbite for SaaS and product websites.",
+  "description": "متجرنا يحظى بثقة الآلاف من عشاق كمال الأجسام في جميع أنحاء البلاد، حيث يشهد تزايدًا مستمرًا في عدد الزوار والعمليات الشرائية يومًا بعد يوم. في الشهر الماضي وحده، سجلنا أكثر من [عدد] زيارة فريدة للموقع، مما يعكس اهتمام العملاء بجودة منتجاتنا وخدماتنا. إلى جانب ذلك، تمت معالجة مئات الطلبات من مختلف المدن، حيث قمنا بتوصيل منتجاتنا إلى [عدد] مدينة في [اسم البلد أو المنطقة]. هذا الانتشار الواسع يبرز التزامنا بتقديم أفضل المنتجات لكل رياضي، بغض النظر عن مكان تواجده. بفضل الثقة التي يوليها لنا عملاؤنا، نحن مستمرون في توسيع نطاق خدماتنا للوصول إلى المزيد من المدن وتلبية احتياجات الرياضيين في كل مكان.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themesberg/landwind.git"
+    "url": "git+https://anass-bellagouim.github.io/landing-page-protein/"
   },
   "keywords": [
     "landing",
@@ -23,12 +23,12 @@
     "javascript",
     "design"
   ],
-  "author": "Themesberg",
+  "author": "protein",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/themesberg/landwind/issues"
+    "url": "https://anass-bellagouim.github.io/landing-page-protein/"
   },
-  "homepage": "https://github.com/themesberg/landwind#readme",
+  "homepage": "https://anass-bellagouim.github.io/landing-page-protein/",
   "devDependencies": {
     "tailwindcss": "^3.1.4"
   },
