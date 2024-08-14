@@ -26,6 +26,13 @@
     <meta name="twitter:site" content="@Protein" />
     <meta name="twitter:creator" content="@Protein" />
 
+
+      <!--=============== BOXICONS ===============-->
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/TRNATURAL-CERCLE.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/TRNATURAL-CERCLE.png">
@@ -35,8 +42,59 @@
     <meta name="theme-color" content="#ffffff">
     <link href="./output.css" rel="stylesheet">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-</head>
-<body dir="rtl">
+    <style type="text/css">
+        #whatsapp .wtsapp{
+          position: fixed;
+          transform: all .5s ease;
+          background-color: #25d366;
+          display: block;
+          text-align: center;
+          box-shadow: 0 0 20px rgba(0,0,0,0.15);
+          border-radius: 50px;
+          border-right: none;
+          color: #fff;
+          font-weight: 700;
+          font-size: 30px;
+          bottom: 70px;
+          left: 20px;
+          border: 0;
+          z-index: 9999;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+        }
+        #whatsapp .wtsapp::before{
+          content: "";
+          position: absolute;
+          z-index: -1;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          display: block;
+          width: 60px;
+          height: 60px;
+          background-color: #25d366;
+          border-radius: 50%;
+          -webkit-animation:pulse-border 1500ms ease-out infinite;
+          animation: pulse-border 1500ms ease-out infinite;
+        }
+        #whatsapp .wtsapp:focus{
+          border: none;
+          outline: none;
+        }
+
+        @keyframes pulse-border{
+          0%{transform: translateX(-50%) translateY(-50) translateZ(0) scale(1); opacity: 1;}
+          100%{transform: translateX(-50%) translateY(-50) translateZ(0) scale(1.5); opacity: 0;}
+
+        }
+    </style>
+  </head>
+  <body dir="rtl">
+
+    <div id="whatsapp">
+        <a href="https://wsend.co/212638676326" target="_blank" id="toggle1" class="wtsapp"><i class='bx bxl-whatsapp'></i></a>
+    </div>
 
     <header class="fixed w-full">
         <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
@@ -56,48 +114,56 @@
     <section class="bg-white dark:bg-gray-900" style="padding-top: 50px;">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-1">
             <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
-                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Landwind we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">CREATINE MONOHYDRATE</h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400"> هو مكمل غذائي عالي الجودة تم تطويره خصيصًا لدعم الأداء الرياضي وزيادة القوة والتحمل. يحتوي المنتج على كرياتين مونوهيدرات نقي، وهو أحد أكثر المكملات فعالية في تعزيز نمو العضلات وتحسين القوة البدنية. يتميز هذا المنتج بجودته العالية وفعاليته في تحسين الأداء الرياضي.
+
+                </p>
                 <img src="images/pr4.png" alt="">
                 <!-- List -->
                 <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700" style="margin-left: 60px;">
                     <li class="flex space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Dynamic reports and dashboards</span>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">كرياتين نقي وعالي الجودة: يحتوي على كرياتين مونوهيدرات بنسبة 100%، مما يضمن توفير فعالية قصوى.
+                        </span>
                     </li>
                     <li class="flex space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Templates for everyone</span>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">تعزيز القوة والأداء: يساعد على زيادة قوة العضلات وتحسين الأداء البدني خلال التمارين المكثفة.
+                        </span>
                     </li>
                     <li class="flex space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Development workflow</span>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">تحسين التحمل: يعزز من قدرة العضلات على تحمل الجهد العالي لفترات أطول.
+                        </span>
                     </li>
                     <li class="flex space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Limitless business automation</span>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">زيادة حجم العضلات: يساهم في زيادة الكتلة العضلية وتعزيز نمو العضلات بشكل طبيعي.
+                        </span>
                     </li>
                     <li class="flex space-x-3">
                         <!-- Icon -->
                         <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge management</span>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">خالي من الإضافات غير الضرورية: مصمم بدون نكهات صناعية أو مواد حافظة، مما يجعله خيارًا نقيًا وآمنًا.
+                        </span>
                     </li>
                 </ul>
 
-                <h2 style="margin-top: 70px;" class="mb-4 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Landwind we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                <h2 style="margin-top: 70px;" class="mb-4 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">طريقة الاستخدام :                </h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">امزج 1 حصة (5 غرامات) من Creatine Monohydrate مع 200-300 مل من الماء أو العصير، وتناوله قبل التمرين بمدة 30 دقيقة أو بعد التمرين مباشرة لدعم التعافي وزيادة مستويات الكرياتين في العضلات. يمكن أيضًا تناوله في أي وقت من اليوم للحفاظ على مستويات كافية من الكرياتين.
+                </p>
 
-                <h2 style="margin-top: 70px;" class="mb-4 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-                <p style="margin-bottom: 70px;" class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Landwind we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                <h2 style="margin-top: 70px;" class="mb-4 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">الفئة المستهدفة :                </h2>
+                <p style="margin-bottom: 70px;" class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">الرياضيون، ولاعبو كمال الأجسام، وأي شخص يمارس التمارين المكثفة ويبحث عن طريقة طبيعية وفعالة لتعزيز قوته وأدائه البدني باستخدام مكمل كرياتين نقي وموثوق.</p>
             </div>
                 
 
             <div class="flex items-baseline justify-center my-8">
-                <span class="mr-2 text-5xl font-extrabold">250 DH</span>
+                <span class="mr-2 text-5xl font-extrabold">280DH</span>
             </div>
 
         </div>
@@ -150,33 +216,33 @@
 <!-- End block -->
 
 
-     <!-- Start block -->
-     <footer class="bg-white dark:bg-gray-800">
-        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
-            <div class="text-center">
-                <a href="index.html" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                    <img style="height: 100PX;" src="./images/TR_NATURAL-removebg.png" class="h-6 mr-3 sm:h-9" alt="TRNATURAL" />  
-                </a>
-                <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024-2025 TRNATURAL™ All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500"><a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500"></a>
-                </span>
-                <ul class="flex justify-center mt-5 space-x-5">
-                    <li style="margin-right: 25px;">
-                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
-                        </a>
-                    </li>
-                    <li style="margin-right: 30px;">
-                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
-                        </a>
-                    </li>
-                   
-                </ul>
-            </div>
+ <!-- Start block -->
+ <footer class="bg-white dark:bg-gray-800">
+    <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+        <div class="text-center">
+            <a href="index.html" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
+                <img style="height: 100PX;" src="./images/TR_NATURAL-removebg.png" class="h-6 mr-3 sm:h-9" alt="TRNATURAL" />  
+            </a>
+            <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024-2025 TRNATURAL™ All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500"><a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500"></a>
+            </span>
+            <ul class="flex justify-center mt-5 space-x-5">
+                <li style="margin-right: 25px;">
+                    <a href="https://www.facebook.com/share/XT8JTw1nG65Wtc8g/?mibextid=qi2Omg" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                    </a>
+                </li>
+                <li style="margin-right: 30px;">
+                    <a href="https://www.instagram.com/aabdelhaadiaadyy?igsh=YTg3MDU1MDF1NjZ4" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    </a>
+                </li>
+               
+            </ul>
         </div>
-    </footer>
-    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    </div>
+</footer>
+<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 </body>
 </html>
 
